@@ -1,0 +1,1043 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+
+  <!-- ═══════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════ -->
+  <nav class="nav" id="mainNav">
+    <div class="wrap nav-inner">
+      <!-- Reemplazar con <img> cuando se tenga el logo -->
+      <a href="#inicio" class="nav-logo" aria-label="Sodita">SODITA</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#galeria" class="nav-link">Galería</a></li>
+        <li><a href="#carta" class="nav-link">La Carta</a></li>
+        <li><a href="#horarios" class="nav-link">Horarios</a></li>
+        <li>
+          <a
+            href="https://voucheroo.app/app/sodita/reservas"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-sm btn-red">Reservar</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <p class="hero-pre anim-1">bienvenidos a</p>
+      <h1 class="hero-title anim-2">SODITA</h1>
+      <p class="hero-tagline anim-3">club de amigos</p>
+      <div class="hero-ctas anim-4">
+        <a
+          href="https://voucheroo.app/app/sodita/reservas"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-lg btn-red">Hacer una reserva</a
+        >
+        <a href="#carta" class="btn btn-lg btn-ghost">Ver la carta</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       NOSOTROS
+  ═══════════════════════════════════════ -->
+  <section class="sec sec-cream" id="nosotros">
+    <div class="wrap nosotros-grid">
+      <div class="fade-up">
+        <span class="tag">Quiénes somos</span>
+        <h2 class="h2">Más que un bar.<br />Un club de amigos.</h2>
+        <p class="body-text">
+          Sodita es el lugar donde los momentos se convierten en recuerdos.
+          Un espacio cálido, sin pretensiones, donde la buena comida, los
+          tragos y la compañía se fusionan en una sola experiencia.
+        </p>
+        <p class="body-text" style="margin-top:.9rem">
+          Abrimos de día para los que buscan un almuerzo tranquilo, y de
+          noche para los que quieren alargar la sobremesa hasta tarde.
+        </p>
+        <a
+          href="https://www.instagram.com/somos.sodita"
+          target="_blank"
+          rel="noopener"
+          class="link-red" style="display:inline-block;margin-top:1.5rem"
+          >Seguinos en Instagram →</a
+        >
+      </div>
+      <div class="stats-grid fade-up delay-2">
+        <div class="stat-card">
+          <span class="stat-n">2</span>
+          <span class="stat-l">Cartas únicas</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-n">7</span>
+          <span class="stat-l">Días por semana</span>
+        </div>
+        <div class="stat-card stat-full">
+          <span class="stat-n">∞</span>
+          <span class="stat-l">Amigos por hacer</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       ESLOGAN
+  ═══════════════════════════════════════ -->
+  <div class="slogan-strip">
+    <div class="wrap">
+      <p class="slogan fade-up">
+        Hecho por amigos, con amigos y para amigos
+      </p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       GALERÍA
+  ═══════════════════════════════════════ -->
+  <section class="sec sec-white" id="galeria">
+    <div class="wrap">
+      <div class="sec-head fade-up">
+        <span class="tag">@somos.sodita</span>
+        <h2 class="h2">El ambiente</h2>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="gal fade-up delay-1">
+        <img
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700&h=500&fit=crop&q=80"
+          alt="Platos Sodita"
+          loading="lazy"
+        />
+      </div>
+      <div class="gal fade-up delay-2">
+        <img
+          src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=700&h=500&fit=crop&q=80"
+          alt="Comida Sodita"
+          loading="lazy"
+        />
+      </div>
+      <div class="gal fade-up delay-3">
+        <img
+          src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=700&h=500&fit=crop&q=80"
+          alt="Desayuno Sodita"
+          loading="lazy"
+        />
+      </div>
+      <div class="gal gal-wide fade-up delay-1">
+        <img
+          src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&h=500&fit=crop&q=80"
+          alt="Ambiente Sodita"
+          loading="lazy"
+        />
+      </div>
+      <div class="gal fade-up delay-2">
+        <img
+          src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=700&h=500&fit=crop&q=80"
+          alt="Especialidades Sodita"
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div class="wrap" style="text-align:center;margin-top:2.5rem">
+      <a
+        href="https://www.instagram.com/somos.sodita"
+        target="_blank"
+        rel="noopener"
+        class="btn btn-outline-dark fade-up">Ver más fotos en Instagram →</a
+      >
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CARTA
+  ═══════════════════════════════════════ -->
+  <section class="sec sec-cream" id="carta">
+    <div class="wrap">
+      <div class="sec-head fade-up">
+        <span class="tag">Menú</span>
+        <h2 class="h2">La Carta</h2>
+      </div>
+      <div class="carta-grid">
+        <div class="carta-card fade-up delay-1">
+          <div class="carta-top">
+            <span class="carta-emoji">☀️</span>
+            <h3>Carta del Día</h3>
+            <p>
+              Almuerzo y merienda. Opciones frescas y caseras para recargar
+              energías a cualquier hora.
+            </p>
+          </div>
+          <a
+            href="https://drive.google.com/file/d/1734gRuPP72rZBl60-sWqhti2afyyl4yC/view?usp=sharing"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-outline-dark btn-block">Ver Carta Día</a
+          >
+        </div>
+        <div class="carta-card carta-dark fade-up delay-2">
+          <span class="carta-badge">✦ Signature</span>
+          <div class="carta-top">
+            <span class="carta-emoji">🌙</span>
+            <h3>Carta de Noche</h3>
+            <p>
+              Cenas, tragos y picadas para alargar la noche. La experiencia
+              Sodita en su máxima expresión.
+            </p>
+          </div>
+          <a
+            href="https://drive.google.com/file/d/1tZJ9Le-F1Y872Z_GYdU-TU7B8k8nB4nq/view?usp=sharing"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-red btn-block">Ver Carta Noche</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       HORARIOS & UBICACIÓN
+  ═══════════════════════════════════════ -->
+  <section class="sec sec-white" id="horarios">
+    <div class="wrap">
+      <div class="sec-head fade-up">
+        <span class="tag">Cuándo y dónde</span>
+        <h2 class="h2">Horarios & Ubicación</h2>
+      </div>
+      <div class="horas-grid">
+        <div class="horas-card fade-up delay-1">
+          <p class="card-label">Horarios de apertura</p>
+          <table class="hours-table">
+            <tbody>
+              <tr><td>Lunes</td><td class="closed">Cerrado</td></tr>
+              <tr><td>Mar — Jue</td><td>12:00 — 00:00</td></tr>
+              <tr><td>Viernes</td><td>12:00 — 02:00</td></tr>
+              <tr><td>Sábado</td><td>12:00 — 02:00</td></tr>
+              <tr><td>Domingo</td><td>12:00 — 22:00</td></tr>
+            </tbody>
+          </table>
+          <p class="hours-note">* Horarios aproximados, pueden variar en feriados.</p>
+          <a
+            href="https://share.google/BZaYRyvEtnU76l2mg"
+            target="_blank"
+            rel="noopener"
+            class="link-red"
+            style="display:inline-block;margin-top:1.25rem;font-size:.9rem"
+            >Ver ubicación completa →</a
+          >
+        </div>
+        <div class="map-card fade-up delay-2">
+          <p class="card-label">Ubicación</p>
+          <div class="map-frame">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.902731704451!2d-60.63821192368811!3d-32.9535773735904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7abb49de3f6d5%3A0x82db4d8ac9c59f73!2sSodita!5e0!3m2!1ses!2sar!4v1774897706009!5m2!1ses!2sar"
+              width="100%"
+              height="100%"
+              style="border:0"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Ubicación Sodita"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       RESERVAS CTA
+  ═══════════════════════════════════════ -->
+  <section class="reservas" id="reservas">
+    <div class="reservas-glow"></div>
+    <div class="wrap reservas-body">
+      <span class="tag tag-dim fade-up">Reservas</span>
+      <h2 class="reservas-h fade-up delay-1">¿Reservamos una mesa?</h2>
+      <p class="reservas-sub fade-up delay-2">
+        Las mesas vuelan, especialmente los fines de semana.<br />
+        Asegurate el tuyo antes de que sea tarde.
+      </p>
+      <a
+        href="https://voucheroo.app/app/sodita/reservas"
+        target="_blank"
+        rel="noopener"
+        class="btn btn-lg btn-white fade-up delay-3">Hacer una reserva ahora →</a
+      >
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SUMATE
+  ═══════════════════════════════════════ -->
+  <section class="sec sec-cream" id="sumate">
+    <div class="wrap">
+      <div class="sec-head fade-up">
+        <span class="tag">Sumate</span>
+        <h2 class="h2">Formá parte de Sodita</h2>
+      </div>
+      <div class="sumate-grid">
+        <div class="sumate-card fade-up delay-1">
+          <span class="sumate-icon">💼</span>
+          <h3>¿Querés trabajar<br />con nosotros?</h3>
+          <p>
+            Buscamos personas con pasión y buena onda. Si creés que encajás
+            en Sodita, contanos de vos.
+          </p>
+          <div class="email-row">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <a href="mailto:trabajo@sodita.com.ar" class="email-addr">trabajo@sodita.com.ar</a>
+          </div>
+        </div>
+        <div class="sumate-card fade-up delay-2">
+          <span class="sumate-icon">🎨</span>
+          <h3>Collabs<br />Creativas</h3>
+          <p>
+            Fotógrafos, músicos, artistas, marcas: si tenés una idea que
+            valga la pena, mandanos tu propuesta.
+          </p>
+          <div class="email-row">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <a href="mailto:collab@sodita.com.ar" class="email-addr">collab@sodita.com.ar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-logo">SODITA</p>
+        <p class="footer-tag">club de amigos</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="https://www.instagram.com/somos.sodita" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/@somos.sodita" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://voucheroo.app/app/sodita/reservas" target="_blank" rel="noopener">Reservas</a>
+      </nav>
+      <p class="footer-copy">© 2026 Sodita. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</Layout>
+
+<!-- ═══════════════════════════════════════
+     STYLES
+═══════════════════════════════════════ -->
+<style>
+  /* ── Variables ─────────────────────────── */
+  :root {
+    --red:        #e20e0e;
+    --red-h:      #c00c0c;
+    --cream:      #faf8f4;
+    --white:      #ffffff;
+    --dark:       #1a1208;
+    --dark-2:     #221810;
+    --text:       #1c1c1c;
+    --muted:      #6b6661;
+    --border:     rgba(0, 0, 0, 0.09);
+    --shadow:     0 2px 20px rgba(0, 0, 0, 0.07);
+    --shadow-md:  0 10px 40px rgba(0, 0, 0, 0.13);
+    --r:          16px;
+    --r-sm:       10px;
+  }
+
+  /* ── Layout helpers ─────────────────────── */
+  .wrap     { max-width: 1160px; margin: 0 auto; padding: 0 1.5rem; }
+  .sec      { padding: 6rem 0; }
+  .sec-cream { background: var(--cream); padding: 6rem 0; }
+  .sec-white { background: var(--white); padding: 6rem 0; }
+  .sec-head  { margin-bottom: 3rem; }
+
+  /* ── Typography ─────────────────────────── */
+  .tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 0.75rem;
+  }
+  .tag-dim { color: rgba(255, 255, 255, 0.4); }
+
+  .h2 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2.1rem, 4.5vw, 3.1rem);
+    font-weight: 700;
+    line-height: 1.18;
+    color: var(--text);
+  }
+
+  .body-text {
+    color: var(--muted);
+    line-height: 1.78;
+    font-size: 1.05rem;
+  }
+
+  .link-red {
+    color: var(--red);
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: opacity 0.2s;
+  }
+  .link-red:hover { opacity: 0.72; }
+
+  .card-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 1.25rem;
+  }
+
+  /* ── Buttons ─────────────────────────────── */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 2rem;
+    border-radius: 100px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: all 0.22s ease;
+    border: 2px solid transparent;
+    white-space: nowrap;
+  }
+  .btn-lg   { padding: 1.05rem 2.5rem; font-size: 1.05rem; }
+  .btn-sm   { padding: 0.5rem 1.25rem; font-size: 0.82rem; }
+  .btn-block { width: 100%; margin-top: 1.75rem; }
+
+  .btn-red { background: var(--red); color: #fff; border-color: var(--red); }
+  .btn-red:hover {
+    background: var(--red-h);
+    border-color: var(--red-h);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(226, 14, 14, 0.32);
+  }
+
+  .btn-ghost {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(4px);
+  }
+  .btn-ghost:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.65);
+  }
+
+  .btn-outline-dark {
+    background: transparent;
+    color: var(--text);
+    border-color: rgba(0, 0, 0, 0.22);
+  }
+  .btn-outline-dark:hover {
+    background: var(--text);
+    color: #fff;
+    border-color: var(--text);
+  }
+
+  .btn-white {
+    background: #fff;
+    color: var(--dark);
+    border-color: #fff;
+  }
+  .btn-white:hover {
+    background: #f5f5f5;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(255, 255, 255, 0.2);
+  }
+
+  .btn-dark { background: var(--dark); color: #fff; border-color: var(--dark); }
+  .btn-dark:hover {
+    background: var(--dark-2);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.25);
+  }
+
+  /* ── NAV ─────────────────────────────────── */
+  .nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(15, 5, 2, 0.55);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    transition: background 0.35s, box-shadow 0.35s;
+    border-bottom: 1px solid transparent;
+  }
+  .nav.scrolled {
+    background: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 1px 0 var(--border);
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+  }
+  .nav-logo {
+    font-size: 1.35rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: #fff;
+    transition: color 0.3s, opacity 0.2s;
+  }
+  .nav.scrolled .nav-logo { color: var(--text); }
+  .nav-logo:hover { opacity: 0.75; }
+
+  /* Mobile-first: menú oculto por defecto con max-height */
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    position: fixed;
+    top: 4.5rem; left: 0; right: 0;
+    background: #fff;
+    z-index: 99;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.38s cubic-bezier(0.4, 0, 0.2, 1);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+  }
+  .nav-menu.open {
+    max-height: 100vh;
+  }
+  .nav-link {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text);
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    transition: color 0.2s, background 0.2s;
+  }
+  .nav-link:hover { color: var(--red); background: rgba(226,14,14,0.04); }
+  .nav-menu li:last-child { padding: 1.25rem 1.5rem; }
+  .nav-menu .btn-red {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1rem;
+    justify-content: center;
+  }
+
+  /* Desktop: override a fila horizontal */
+  @media (min-width: 821px) {
+    .nav-menu {
+      position: static;
+      flex-direction: row;
+      align-items: center;
+      gap: 2.25rem;
+      max-height: none;
+      overflow: visible;
+      background: transparent;
+      border-bottom: none;
+      box-shadow: none;
+      transition: none;
+      top: auto; left: auto; right: auto;
+    }
+    .nav-link {
+      display: inline;
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.82);
+      padding: 0;
+      border-bottom: none;
+      background: transparent !important;
+    }
+    .nav.scrolled .nav-link { color: var(--muted); }
+    .nav-link:hover,
+    .nav.scrolled .nav-link:hover { color: var(--red); }
+    .nav-menu li:last-child { padding: 0; }
+    .nav-menu .btn-red { width: auto; border-radius: 100px; font-size: 0.82rem; }
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    z-index: 101;
+  }
+  .hamburger span {
+    display: block;
+    width: 24px; height: 2px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.28s;
+  }
+  .nav.scrolled .hamburger span { background: var(--text); }
+  .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  /* Ocultar hamburger en desktop */
+  @media (min-width: 821px) {
+    .hamburger { display: none; }
+  }
+
+  /* ── HERO ─────────────────────────────────── */
+  .hero {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background:
+      radial-gradient(ellipse at 22% 78%, rgba(210, 75, 18, 0.38) 0%, transparent 50%),
+      radial-gradient(ellipse at 82% 22%, rgba(226, 14, 14, 0.2)  0%, transparent 48%),
+      radial-gradient(ellipse at 50% 50%, rgba(40, 15, 4, 0.7)    0%, transparent 75%),
+      linear-gradient(155deg, #1f0d03 0%, #0f0404 38%, #170707 65%, #0d0303 100%);
+  }
+
+  .hero-content { position: relative; z-index: 1; padding: 0 1.5rem; }
+
+  .hero-pre {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.38);
+    margin-bottom: 1.1rem;
+  }
+  .hero-title {
+    font-size: clamp(5rem, 19vw, 14rem);
+    font-weight: 900;
+    line-height: 0.88;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin: 0 0 0.9rem;
+    text-shadow: 0 0 120px rgba(226, 14, 14, 0.22);
+  }
+  .hero-tagline {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(1rem, 2.2vw, 1.45rem);
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.45);
+    letter-spacing: 0.12em;
+    margin-bottom: 2.75rem;
+  }
+  .hero-ctas {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Scroll line indicator */
+  .scroll-indicator {
+    position: absolute;
+    bottom: 2.5rem;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .scroll-line {
+    width: 1px;
+    height: 55px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(255,255,255,0.5) 50%, transparent 100%);
+    animation: lineAnim 2.4s ease-in-out infinite;
+  }
+  @keyframes lineAnim {
+    0%   { transform: scaleY(0) translateY(-100%); opacity: 0; }
+    40%  { transform: scaleY(1) translateY(0%);    opacity: 1; }
+    80%  { transform: scaleY(1) translateY(0%);    opacity: 0.2; }
+    100% { transform: scaleY(0) translateY(100%);  opacity: 0; }
+  }
+
+  /* Hero load animations */
+  .anim-1 { animation: riseIn 0.75s 0.1s  both; }
+  .anim-2 { animation: riseIn 0.85s 0.28s both; }
+  .anim-3 { animation: riseIn 0.75s 0.5s  both; }
+  .anim-4 { animation: riseIn 0.75s 0.72s both; }
+  @keyframes riseIn {
+    from { opacity: 0; transform: translateY(32px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── SCROLL ANIMATIONS ───────────────────── */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(38px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+  }
+  .fade-up.in-view { opacity: 1; transform: translateY(0); }
+  .delay-1 { transition-delay: 0.12s; }
+  .delay-2 { transition-delay: 0.24s; }
+  .delay-3 { transition-delay: 0.36s; }
+
+  /* ── NOSOTROS ────────────────────────────── */
+  .nosotros-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .stat-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 1.75rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.25s, box-shadow 0.25s;
+  }
+  .stat-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+  .stat-full { grid-column: span 2; }
+  .stat-n { font-size: 3rem; font-weight: 900; color: var(--red); line-height: 1; }
+  .stat-l { font-size: 0.78rem; color: var(--muted); font-weight: 600; letter-spacing: 0.04em; }
+
+  /* ── GALERÍA ─────────────────────────────── */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 310px 260px;
+    gap: 6px;
+    margin-top: 2.5rem;
+  }
+  .gal-wide { grid-column: span 2; }
+  .gal { overflow: hidden; border-radius: 4px; background: #e8e4de; }
+  .gal img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease, filter 0.4s ease;
+    filter: brightness(0.9) saturate(1.05) sepia(8%);
+  }
+  .gal:hover img {
+    transform: scale(1.06);
+    filter: brightness(1) saturate(1.15) sepia(4%);
+  }
+
+  /* ── CARTA ───────────────────────────────── */
+  .carta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  .carta-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 2.75rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow);
+    position: relative;
+    transition: transform 0.25s, box-shadow 0.25s;
+  }
+  .carta-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+  .carta-dark {
+    background: var(--dark);
+    border-color: transparent;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+  }
+  .carta-dark h3, .carta-dark p { color: rgba(255,255,255,0.9) !important; }
+  .carta-dark p  { color: rgba(255,255,255,0.6) !important; }
+  .carta-badge {
+    position: absolute;
+    top: 1.25rem; right: 1.25rem;
+    background: var(--red);
+    color: #fff;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    padding: 0.28rem 0.85rem;
+    border-radius: 100px;
+  }
+  .carta-top { flex: 1; }
+  .carta-emoji { font-size: 2.25rem; margin-bottom: 1rem; display: block; }
+  .carta-card h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--text);
+  }
+  .carta-card p {
+    color: var(--muted);
+    line-height: 1.65;
+    font-size: 0.95rem;
+    margin-bottom: 0;
+  }
+
+  /* ── HORARIOS ────────────────────────────── */
+  .horas-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .horas-card {
+    background: var(--cream);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 2.5rem;
+  }
+  .hours-table { width: 100%; border-collapse: collapse; }
+  .hours-table td {
+    padding: 0.88rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.95rem;
+    color: var(--text);
+  }
+  .hours-table td:first-child { color: var(--muted); }
+  .hours-table td:last-child  { text-align: right; font-weight: 700; }
+  .hours-table tr:last-child td { border-bottom: none; }
+  .closed { color: #c0bcb7 !important; font-weight: 400 !important; font-style: italic; }
+  .hours-note { font-size: 0.72rem; color: #bbb; margin-top: 1rem; }
+
+  .map-card {
+    background: var(--cream);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .map-frame {
+    flex: 1;
+    min-height: 360px;
+    border-radius: var(--r-sm);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    margin-top: 1rem;
+  }
+  .map-frame iframe { display: block; min-height: 360px; }
+
+  /* ── RESERVAS CTA ────────────────────────── */
+  .reservas {
+    padding: 8rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(145deg, #1c0505 0%, #280808 45%, #1e0606 100%);
+  }
+  .reservas-glow {
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 65% 75% at 50% 50%, rgba(226,14,14,0.22) 0%, transparent 65%);
+    pointer-events: none;
+  }
+  .reservas-body { position: relative; z-index: 1; }
+  .reservas-h {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2.2rem, 5vw, 3.75rem);
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.12;
+    margin: 0.5rem 0 1.25rem;
+  }
+  .reservas-sub {
+    color: rgba(255,255,255,0.5);
+    font-size: 1.1rem;
+    line-height: 1.72;
+    max-width: 460px;
+    margin: 0 auto 2.75rem;
+  }
+
+  /* ── SUMATE ──────────────────────────────── */
+  .sumate-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  .sumate-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 2.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.25s, box-shadow 0.25s;
+  }
+  .sumate-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+  .sumate-icon { font-size: 2.25rem; }
+  .sumate-card h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--text);
+  }
+  .sumate-card p { color: var(--muted); line-height: 1.65; font-size: 0.95rem; flex: 1; }
+
+  /* ── ESLOGAN STRIP ──────────────────────── */
+  .slogan-strip {
+    background: var(--dark);
+    padding: 4rem 0;
+    text-align: center;
+    overflow: hidden;
+  }
+  .slogan {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    font-style: italic;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.82);
+    max-width: 680px;
+    margin: 0 auto;
+    line-height: 1.55;
+    position: relative;
+    padding: 0 1rem;
+  }
+  .slogan::before {
+    content: "\201C";
+    color: var(--red);
+    font-size: 1.4em;
+    line-height: 0;
+    vertical-align: -0.35em;
+    margin-right: 0.1em;
+  }
+  .slogan::after {
+    content: "\201D";
+    color: var(--red);
+    font-size: 1.4em;
+    line-height: 0;
+    vertical-align: -0.35em;
+    margin-left: 0.1em;
+  }
+
+  /* ── EMAIL ROW ───────────────────────────── */
+  .email-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+  }
+  .email-row svg { flex-shrink: 0; color: var(--red); }
+  .email-addr {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text);
+    transition: color 0.2s;
+    word-break: break-all;
+  }
+  .email-addr:hover { color: var(--red); }
+
+  /* ── FOOTER ──────────────────────────────── */
+  .footer {
+    background: var(--dark);
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 3rem 0 2rem;
+  }
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 2rem;
+  }
+  .footer-logo { font-size: 1.65rem; font-weight: 900; letter-spacing: 0.1em; color: #fff; }
+  .footer-tag  { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.28); margin-top: 0.25rem; }
+  .footer-nav  { display: flex; gap: 2rem; align-items: center; }
+  .footer-nav a { color: rgba(255,255,255,0.42); font-size: 0.85rem; font-weight: 500; transition: color 0.2s; }
+  .footer-nav a:hover { color: #fff; }
+  .footer-copy { font-size: 0.7rem; color: rgba(255,255,255,0.22); text-align: right; }
+
+  /* ── RESPONSIVE ──────────────────────────── */
+
+  /* Tablet: layouts de contenido */
+  @media (max-width: 900px) {
+    .nosotros-grid,
+    .carta-grid,
+    .horas-grid,
+    .sumate-grid   { grid-template-columns: 1fr; gap: 1.5rem; }
+    .nosotros-grid { gap: 3rem; }
+    .footer-inner  { grid-template-columns: 1fr; text-align: center; }
+    .footer-nav    { justify-content: center; flex-wrap: wrap; }
+    .footer-copy   { text-align: center; }
+    .gallery       { grid-template-rows: 230px 200px; }
+  }
+
+  /* Mobile */
+  @media (max-width: 540px) {
+    .sec, .sec-cream, .sec-white, .reservas { padding: 4rem 0; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    .hero-ctas  { flex-direction: column; align-items: center; }
+    .gallery {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 160px 160px 140px;
+    }
+    .gal-wide { grid-column: span 2; }
+    .slogan-strip { padding: 3rem 0; }
+  }
+</style>
+
+<!-- ═══════════════════════════════════════
+     SCRIPTS
+═══════════════════════════════════════ -->
+<script>
+  /* ── Nav: glass → white on scroll ── */
+  const nav = document.getElementById("mainNav");
+  const checkScroll = () =>
+    nav?.classList.toggle("scrolled", window.scrollY > 60);
+  window.addEventListener("scroll", checkScroll, { passive: true });
+  checkScroll();
+
+  /* ── Hamburger ── */
+  const burger = document.getElementById("hamburger");
+  const menu   = document.getElementById("navMenu");
+  burger?.addEventListener("click", () => {
+    const open = menu?.classList.toggle("open");
+    burger.classList.toggle("open", open);
+    document.body.style.overflow = open ? "hidden" : "";
+  });
+  menu?.querySelectorAll(".nav-link").forEach((l) =>
+    l.addEventListener("click", () => {
+      menu.classList.remove("open");
+      burger?.classList.remove("open");
+      document.body.style.overflow = "";
+    })
+  );
+
+  /* ── Scroll-triggered fade-up animations ── */
+  const observer = new IntersectionObserver(
+    (entries) =>
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add("in-view");
+          observer.unobserve(e.target);
+        }
+      }),
+    { threshold: 0.1, rootMargin: "0px 0px -55px 0px" }
+  );
+  document.querySelectorAll(".fade-up").forEach((el) => observer.observe(el));
+</script>
