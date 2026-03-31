@@ -10,7 +10,7 @@ import Layout from "../layouts/Layout.astro";
   <nav class="nav" id="mainNav">
     <div class="wrap nav-inner">
       <!-- Reemplazar con <img> cuando se tenga el logo -->
-      <a href="#inicio" class="nav-logo" aria-label="Sodita">SODITA</a>
+      <a href="#inicio" class="nav-logo" aria-label="Sodita"><img src="public/logo-sodita-white.png" alt="Sodita" class="nav-logo-img" /></a>
       <button class="hamburger" id="hamburger" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
@@ -509,6 +509,7 @@ import Layout from "../layouts/Layout.astro";
   }
   .nav.scrolled .nav-logo { color: var(--text); }
   .nav-logo:hover { opacity: 0.75; }
+  .nav-logo-img { height: 5.2rem; width: auto; display: block; }
 
   /* Mobile-first: menú oculto por defecto con max-height */
   .nav-menu {
@@ -910,7 +911,7 @@ import Layout from "../layouts/Layout.astro";
     font-style: italic;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.82);
-    max-width: 680px;
+    max-width: 700px;
     margin: 0 auto;
     line-height: 1.55;
     position: relative;
